@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MoLi</string>
+    <string name="welcome">Welcome To MoLi Apps</string>
+    <string name="login">Login</string>
+    <string name="username">E-Mail</string>
+    <string name="password">Password</string>
+    <string name="data_materi">Data Materi</string>
+    <string name="materi_satu">Materi Pertama</string>
+    <string name="materi">Materi NDF Motorcycle</string>
+    <string name="infodanevent">Info dan Event</string>
+    <string name="viewmore">View More</string>
+    <string name="judul">Judul</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="syaratdanketentuan">Syarat &amp; Ketentuan</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context=".MateriNDFM.MateriActivity">
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmer_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include
+                layout="@layout/pdf_item_placeholder"></include>
+            <include
+                layout="@layout/pdf_item_placeholder"></include>
+            <include
+                layout="@layout/pdf_item_placeholder"></include>
+            <include
+                layout="@layout/pdf_item_placeholder"></include>
+            <include
+                layout="@layout/pdf_item_placeholder"></include>
+            <include
+                layout="@layout/pdf_item_placeholder"></include>
+            <include
+                layout="@layout/pdf_item_placeholder"></include>
+            <include
+                layout="@layout/pdf_item_placeholder"></include>
+            <include
+                layout="@layout/pdf_item_placeholder"></include>
+            <include
+                layout="@layout/pdf_item_placeholder"></include>
+            <include
+                layout="@layout/pdf_item_placeholder"></include>
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/pdf_item"
+        android:visibility="gone"/>
+
+</LinearLayout>
